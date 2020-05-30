@@ -49,7 +49,6 @@ min-height: 500px;
 
 	flex-direction: column;
 	justify-content: flex-start;
-	background-color: var(--dark);
 	background-size: cover;
 	text-align: left;
 	background-position: center;
@@ -64,15 +63,26 @@ justify-content: center;
 font-size: 20px;
 font-family: 'Cabin', sans-serif;
 }
+
+.contact i {
+	font-size: 60px;
+	color: var(--dark);
+width: 100px;
+min-height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+	background-color: var(--light);
+	border-radius: 300px;
+}
 .buttons {
 	width: 100%;
-	min-height: 100px;
+	min-height: 50px;
 	display: flex;
 	align-items: center;
 	flex-direction: row;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	padding: 0;
 }
 
 .btn {
@@ -129,7 +139,6 @@ align-items:center;
 justify-content:space-around;
 font-weight: bold;
 
-  max-height:650px;
     flex-wrap:wrap;
 flex-direction:row;
 
@@ -163,11 +172,13 @@ button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 60px;
-	min-height: 60px;
-	background-color: white;
+	width: 100px;
+	min-height: 100px;
+	color: var(--light);
+	background-color: transparent;
 	border-radius: 300px;
 }
+
 .nav {
 display:flex;
 align-items:center;
@@ -428,7 +439,18 @@ background-position: center;
 }
 
 .contact .row {
-	flex-grow: 1;
+	justify-content:  space-evenly;
+
+}
+
+
+.contact .container {
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
 
 }
 .contact h1 {
@@ -446,7 +468,8 @@ background: #2ecc71 url(undraw2.svg);
  display: flex;
   align-items: center;
   background-size: 90%;
-  
+  margin:  10px;
+
   background-position: center;
   justify-content: center;
 background-repeat: no-repeat;
@@ -457,11 +480,13 @@ background-repeat: no-repeat;
 
 .child2 {
   width: 600px;
+  border: : 1px solid #1A202C;
+  margin:  10px;
+
   min-height: 600px;
   background-color:white;
   display: flex;
   align-items: center;
-
   justify-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
@@ -524,3 +549,4 @@ background-color: var(--green);
 	margin: 0px 0;
 	min-height: 100px;
 }
+
